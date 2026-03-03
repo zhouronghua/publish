@@ -7,7 +7,6 @@
 - **GitHub**：<https://github.com/zhouronghua/publish>
 - **Gitee**：<https://gitee.com/zhouronghua/publish/tree/main>
 
-克隆示例：`git clone https://github.com/zhouronghua/publish.git` 或 `git clone https://gitee.com/zhouronghua/publish.git`。
 
 ## 书目列表
 
