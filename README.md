@@ -1,0 +1,45 @@
+# publish
+
+技术书籍与讲义文稿的 Markdown 版本仓库，便于阅读与协作。
+
+## 下载地址
+
+- **GitHub**：<https://github.com/zhouronghua/publish>
+- **Gitee**：<https://gitee.com/zhouronghua/publish/tree/main>
+
+克隆示例：`git clone https://github.com/zhouronghua/publish.git` 或 `git clone https://gitee.com/zhouronghua/publish.git`。
+
+## 书目列表
+
+### 编译器：原理与实现
+
+- **作者**：周荣华  
+- **目录**：`Compiler_Principles_and_Implementation/`  
+- **说明**：以编译器分析与优化为主线，从控制流/数据流、工作列表算法、指针分析、循环优化，到 SSA、寄存器分配、指令级并行与多分支（GPU）分析，并结合 LLVM 11 源码说明实现。内容源自巴西 UFMG 的 DCC888 课程（Code Analysis and Optimization），经整理并与 LLVM 实践结合而成。
+
+**章节结构**（按章独立 md 文件）：
+
+| 文件 | 内容 |
+|------|------|
+| 00-推荐序.md | 推荐序 |
+| 01-前言.md | 前言、DCC888 与写作背景 |
+| 02-目录.md | 目录 |
+| 03-第1章-导论.md | 第 1 章 导论 |
+| 04-第2章-控制流图.md | 第 2 章 控制流图 |
+| 05-第3章-数据流分析.md | 第 3 章 数据流分析 |
+| 06-第4章-工作列表算法.md | 第 4 章 工作列表（worklist）算法 |
+| 07-第5章-指针分析.md | 第 5 章 指针分析 |
+| 08-第6章-循环优化.md | 第 6 章 循环优化 |
+| 09-第7章-静态单赋值SSA.md | 第 7 章 静态单赋值（SSA） |
+| 10-第8章-寄存器分配.md | 第 8 章 寄存器分配 |
+| 11-第9章-指令级并行.md | 第 9 章 指令级并行 |
+| 12-第10章-多分支分析.md | 第 10 章 多分支分析 |
+| 13-附录A-XLA的缓冲区指派.md | 附录 A XLA 的缓冲区指派 |
+
+正文插图位于各书目录下的 `images/` 中，在 Markdown 里以 `![图](images/xxx.png)` 引用。
+
+## 仓库说明
+
+- 各书单独占一个子目录，目录名与书名或主题对应。  
+- 正文为按章拆分的 Markdown，图片集中在该书目录的 `images/` 下。  
+- 若后续增加其他书籍，将在此 README 的「书目列表」中补充条目与目录结构说明。
