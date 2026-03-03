@@ -6,7 +6,7 @@ A.1 什么是XLA
 
 XLA是Accelerated Linear Algebra的简称。
 
-第一次看到Accelerated被简称为X的时候，有点奇怪，因为Accelerated里面可没有一个字母是X，但Accelerated的发音和X相同，这样简化之后可以避免一个简写中存在多个A的不协调，XLA读起来确实比ALA朗朗上口一点（:)）。以下是关于XLA的一些关键信息：
+Accelerated 简写为 X 初看略显突兀（Accelerated 中并无字母 X），实因发音与 X 相近，如此可避免简写中重复出现 A，XLA 较 ALA 更顺口。以下是 XLA 的一些关键信息：
 
 XLA - TensorFlow, compiled. Mar. 6th, 2017
 
@@ -30,7 +30,7 @@ XLA的设计理念是一种近似SSA的中间表达：
 
 清晰的Def-Use链
 
-XLA: Optimizing Compiler for Machine Learning  |  TensorFlow中有个油管视频详细讲解了XLA的原理，通过这个也可以理解一下TensorFlow的原理：
+XLA: Optimizing Compiler for Machine Learning  |  TensorFlow 官方有视频详细讲解 XLA 原理，也可借此理解 TensorFlow 的编译流程：
 
 ![图](images/image_0180.png)
 
@@ -126,5 +126,5 @@ A.5.1 将能够重用的buffer尽可能重用
 
 A.5.2 缓冲区分配复合
 
-将着色相同的缓冲区复合到一起申请（可能不同缓冲区占用某个实际缓冲区的不同部分，但大家相互之间的关系决定了它们可以相邻申请）
+将着色相同的缓冲区合并申请（不同缓冲区可能占用同一实际缓冲区的不同区段，其相互关系决定它们可相邻申请）
 
