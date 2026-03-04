@@ -1,1 +1,4 @@
 build/
+*.tar.xz
+*.docx
+llvm-project-11.0.0/
