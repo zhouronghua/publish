@@ -1,0 +1,3 @@
+[submodule "3rd/chtxt"]
+	path = 3rd/chtxt
+	url = https://github.com/zhouronghua/chtxt.git
