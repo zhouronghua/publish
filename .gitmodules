@@ -1,3 +1,6 @@
 [submodule "3rd/chtxt"]
 	path = 3rd/chtxt
 	url = https://github.com/zhouronghua/chtxt.git
+[submodule "3rd/open-iching"]
+	path = 3rd/open-iching
+	url = https://github.com/john-walks-slow/open-iching.git
